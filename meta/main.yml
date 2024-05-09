@@ -1,0 +1,22 @@
+galaxy_info:
+    role_name: yay
+    authors:
+      - mnussbaum
+      - DeadlySquad13
+    description: Role for using yay - aur helper for Archlinux, in ansible playbooks
+    license: MIT
+    min_ansible_version: 2.1
+
+    platforms:
+        - name: Archlinux
+          versions:
+              - all
+
+    galaxy_tags:
+        - yay
+        - system
+        - packaging
+        - Archlinux
+        - pacman
+
+dependencies: [yay]
